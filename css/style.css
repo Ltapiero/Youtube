@@ -199,6 +199,7 @@ body{
     align-content: flex-start;
     gap: 1.5rem;
     padding: 1.5rem;
+    padding-bottom: 6rem;
 }
 
 .video{
