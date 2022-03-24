@@ -207,13 +207,17 @@ body{
 }
 
 
-.video:hover{
-    transition-delay: .8s;
-    transform: scale(1.15);
-    background-color: var(--primary);
-    padding-bottom: 1rem;
-    position: relative;
-}
+
+
+@media (hover : hover) {
+    .video:hover{
+        transition-delay: .8s;
+        transform: scale(1.15);
+        background-color: var(--primary);
+        padding-bottom: 1rem;
+        position: relative;
+    }
+} 
 
 .video a{
     text-decoration: none;
