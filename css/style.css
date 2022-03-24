@@ -36,6 +36,45 @@ body{
 }
 
 
+.loader{
+    width: 100%;
+    height: 100vh;
+    background: var(--primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    transition: opacity .5s ease-out;
+    transition-delay: 2.5s;
+}
+
+.loader2{
+    opacity: 0;
+}
+
+.loader img{
+    width: 30%;
+    animation-name: animacion_logo;
+    animation-duration: .8s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes animacion_logo {
+    0%{
+        transform: translateY(5%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 .icon{
     font-size: 2.4rem !important;
 }
@@ -389,5 +428,10 @@ body{
     .video a img{
         height: auto;
     }
+    
+    .loader img{
+       width: 50%;
+    }
+    
 } 
 
