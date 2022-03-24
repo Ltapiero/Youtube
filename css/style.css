@@ -90,6 +90,10 @@ body{
     width: 70%;
     background-color: rgb(27, 27, 27);
     border: none;
+    outline: none;
+    font-size: 1.8rem;
+    color: white;
+    padding: 1rem;
 }
 
 /* nav right */
