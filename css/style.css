@@ -52,7 +52,22 @@ body{
 
 .loader2{
     opacity: 0;
+    animation-name: display;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes display {
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: -100vh;
+    }
+}
+
+
 
 .loader img{
     width: 30%;
